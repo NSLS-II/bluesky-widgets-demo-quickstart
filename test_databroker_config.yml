@@ -1,0 +1,11 @@
+# Run
+# 
+# python3 -c "import databroker; print(databroker.catalog_search_path())"
+#
+# to see a list of directories where you can place this file.
+sources:
+  test:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatastore_db: mongodb://localhost:27017/test-bluesky-widgets-demo
+      asset_registry_db: mongodb://localhost:27017/test-bluesky-widgets-demo
