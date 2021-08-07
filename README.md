@@ -73,4 +73,4 @@ To run a working example...
    better if this were on the same tab as the data acquisition, as we have done
    in Ariadne.)
 
-   ![plot](plot.png)
+   ![plot](static/plot.png)
